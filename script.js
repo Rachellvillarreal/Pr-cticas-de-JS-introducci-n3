@@ -1,0 +1,1 @@
+console.log("aqui amamos el sushi y el sashimi")
