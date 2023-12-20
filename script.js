@@ -24,3 +24,40 @@ const sumarNumeros3 = function(numero1, numero2) {
 
 const resultado3= sumarNumeros3(5, 7);
 console.log(resultado3);
+
+     //EMPIEZAN LOS EJERCICIOS//
+     
+//1-Escribe una función que tome dos números como argumentos y devuelva su suma//
+
+const sumarNumeros4 = function(numero1, numero2) {
+    return numero1 + numero2
+};
+const resultado4= sumarNumeros4(8, 10);
+console.log(resultado4);
+//2-Escribe una función que tome dos números como argumentos y devuelva su resta//
+
+function restar(num1, num2) {
+     var resta = num1 - num2;
+     return resta;
+}
+var resultadoResta = restar(7, 3);
+console.log(resultadoResta);
+
+//3-Escribe una función que tome dos números como argumentos y devuelva su producto//
+
+function multiplicar(num1, num2) {
+    var producto = num1 * num2;
+    return producto;
+}
+var resultadoProducto = multiplicar(3, 6);
+console.log(resultadoProducto);
+
+//4-Escribe una función que tome dos números como argumentos y devuelva su división//
+
+function dividir( numero1, numero2) {
+    var dividir = numero1/ numero2
+    return dividir;
+}
+var resultadodividir= dividir(25, 5);
+console.log(resultadodividir);
+//5-Escribe una función que tome un número base y un exponente y devuelva el resultado de elevar el número base a la potencia dada.//
