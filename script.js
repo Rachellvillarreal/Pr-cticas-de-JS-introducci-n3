@@ -27,6 +27,7 @@ console.log(resultado3);
 
      //EMPIEZAN LOS EJERCICIOS//
      
+     //numeros//
 //1-Escribe una función que tome dos números como argumentos y devuelva su suma//
 
 const sumarNumeros4 = function(numero1, numero2) {
@@ -61,3 +62,15 @@ function dividir( numero1, numero2) {
 var resultadodividir= dividir(25, 5);
 console.log(resultadodividir);
 //5-Escribe una función que tome un número base y un exponente y devuelva el resultado de elevar el número base a la potencia dada.//
+
+//letras//
+//1-Escribe una función que tome dos cadenas de texto como argumentos y devuelva su concatenación//
+
+const str1 = 'hola buen dia' ;
+const str2 = ' cielo' ;
+console.log(str1.concat('' , str2));
+
+//2-Escribe una función que tome una cadena de texto como argumento y devuelva su longitud//
+//3-Escribe una función que tome una cadena de texto como argumento y devuelva la misma cadena en mayúsculas//
+//4-Escribe una función que tome una cadena de texto como argumento y devuelva la misma cadena en minúsculas//
+//5-Escribe una función que tome una cadena de texto y un índice como argumentos, y devuelva el carácter en esa posición//
